@@ -7,9 +7,9 @@ The main input/output requirements are here as well as various suggested items s
 
 Not everything is implemented evenly across the entire app due to the time it'd take, though, but hopefully it's enough for demonstration purposes.
 
+Treat the `autosoft-tax-calculator` as the project root if following the seed project documentation below.  The separate test project can be run with `dotnet test` or via the VS code IDE Run Test "links"/context menus/etc.  Angular tests can be run with `ng test` in the Client folder.
 
-
-# Below is the documentation from the seed project
+### Below is the documentation from the seed project
 
 # Angular ASP.NET Core Seed Project
 
