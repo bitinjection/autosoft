@@ -1,0 +1,53 @@
+
+.label {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 12px;
+    color: #9B9B9B;
+}
+
+
+.tax-amount-container {
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
+
+.tax-amount-label {
+    font-size: 4rem;
+    margin-right: 8px;
+    color: #8a5f34;
+}
+
+.currency-label {
+    font-variant: small-caps;
+}
+
+.method-label {
+    font-size: 2rem;
+}
+
+.results-container {
+    margin-top: 18px;
+    text-align: center;
+}
+
+.unclesam {
+    width: 100px;
+    text-align: center;
+    margin: 0 auto;
+    mix-blend-mode: multiply;
+}
+
+.blink {
+  animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+.sarcastic {
+    margin-top: 8px;
+    color: palevioletred;
+}

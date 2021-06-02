@@ -1,0 +1,13 @@
+<div class="outline resize">
+    <div class="row">
+        <div class="column">
+            <app-tax-input (taxInformation)='activateButton($event)'></app-tax-input>
+        </div>
+        <div class="column">
+            <app-tax-results #taxresults></app-tax-results>
+        </div>
+    </div>
+    <div class="calculate-row">
+        <button class="calculate-button" (click)="calculateTax()" [disabled]="!(toggleCalculateButton$ | async)">Calculate</button>
+    </div>
+</div>

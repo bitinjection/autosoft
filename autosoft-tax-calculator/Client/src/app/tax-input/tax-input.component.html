@@ -1,0 +1,15 @@
+<div class="label">
+    Zip code
+</div>
+<div class="input-container">
+    <input (input)="zipcodeChanged($event.target.value)" type="text" class="text-input" placeholder="Zipcode" maxlength="5">
+</div>
+<div class="label">
+    Income
+</div>
+<div class="input-container">
+    <input (input)="incomeChanged($event.target.value)" type="text" class="text-input" placeholder="Income" maxlength="15">
+</div>
+<div class="checkbox-container">
+    <input class="checkbox-input" type="checkbox" (change)="monthlyToggled($event.target.checked)"><span>Monthly income specified</span>
+</div>

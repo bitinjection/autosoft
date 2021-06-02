@@ -1,0 +1,39 @@
+.row {
+  display: flex;
+  margin: 0 auto;
+  background-color: #e6ddd4;
+}
+
+.column {
+  flex: 50%;
+  margin: 24px;
+}
+
+.center {
+    margin: 0 auto;
+}
+
+.resize {
+    width: 75%;
+}
+
+.outline {
+    border-color: #9B9B9B;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 4px;
+    max-width: 550px;
+    margin: 0 auto;
+    background-color: #e6ddd4;
+    box-shadow: 1px 1px 4px #a29486;
+}
+
+.calculate-row {
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+.calculate-botton {
+    border-radius: 4px;
+    border-style: solid;
+}

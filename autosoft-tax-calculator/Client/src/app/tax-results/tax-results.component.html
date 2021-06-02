@@ -1,0 +1,16 @@
+<div class="results-container">
+    <div *ngIf="displayResults$ | async; else placeholder">
+        <div class="label">You owe</div>
+        <div class="tax-amount-container">
+            <span class="tax-amount-label">{{ tax }}</span>
+            <span class="currency-label">USD</span>
+        </div>
+        <div class="method-label">{{ plan }}</div>
+        <div class="method-label blink sarcastic">Congrats!!</div>
+    </div>
+    <ng-template #placeholder>
+        <div>
+            <img src="images/unclesam.jpg" class="unclesam">
+        </div>
+    </ng-template>
+</div>

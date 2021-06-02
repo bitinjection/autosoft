@@ -1,0 +1,8 @@
+.logo {
+    margin: 0 auto;
+    margin-bottom: 48px;
+}
+
+.logo > img {
+    width: 100%
+}
