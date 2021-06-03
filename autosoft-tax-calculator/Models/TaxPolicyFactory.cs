@@ -19,7 +19,7 @@ namespace AutosoftTaxCalculator.Models {
 
         if (policy.Name == "Fixed")
         {
-          return new FlatTaxPolicy();
+          return new FixedTaxPolicy();
         }
         else if (policy.Name == "Progressive")
         {
